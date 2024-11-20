@@ -1,0 +1,289 @@
+@media (max-width:2000px){
+    .promo__left{
+        width: 50%;
+        height: 600px;
+    }
+    .promo__right{
+        height: 600px;
+    }
+}
+@media (max-width:1300px){
+    .cards{
+        grid-gap: 15px;
+        margin: 0px 10px;
+    }
+    .features__box{
+        padding: 30px 10px 25px 10px;
+    }
+    .features__rate-box{
+        padding: 10px 10px 10px 10px;
+    }
+    .promo__right_card button{
+        position: relative;
+        top: 0px;
+        left: 35%;
+    }
+    
+}
+@media (max-width:1095px){
+    .promo__left{
+        width: 50%;
+        height: 440px;
+    }
+    .promo__right{
+        height: 440px;
+    }
+    .features__box{
+        padding: 30px 10px 25px 10px;
+    }
+    .features__rate-box{
+        padding: 15px 5px 18px 5px;
+    }
+    .promo__right{
+        width: 50%;
+        height: 440px;
+        box-sizing: border-box;
+        padding: 70px 40px;
+    } 
+    .promo__right_card{
+        padding: 10px 15px;
+        border-radius: 25px;
+    }
+    .promo__right_card h2+p{
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    .promo__right_card button{
+        position: relative;
+        top: 0px;
+        left: 30%;
+    }
+}
+
+@media ( max-width: 1010px){
+    .cards{
+        grid-gap: 20px;
+    }
+    .card{
+        padding: 35px 30px 25px 30px;
+    }
+    .features__box{
+        padding: 15px 10px 15px 10px;
+    }
+    .features__rate-box{
+        padding: 30px 5px 30px 5px;
+    }
+    
+    
+}
+@media ( max-width: 990px){
+    .about{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about h1{
+        font-size: 50px;
+    }
+    .about__image {
+        width: 400px;
+    }
+    .cards{
+        grid-gap: 15px;
+    }
+    .card{
+        padding: 35px 20px 25px 20px;
+    }
+    .features{
+        margin: 0px 10px;
+    }
+    .features__box{
+        padding: 15px 10px 15px 10px;
+    }
+    .features__rate-box{
+        padding: 30px 5px 20px 5px;
+    }
+    
+    
+}
+@media ( max-width: 791px){
+   
+    .features__box{
+        padding: 15px 10px 15px 10px;
+    }
+    .features__rate-box{
+        padding: 20px 5px 15px 5px;
+    }
+}
+
+
+@media ( max-width: 775px){
+    .cards{
+        grid-gap: 15px;
+        margin: 0px 10px;
+    }
+    .features__box{
+        padding: 10px 10px 10px 10px;
+    }
+    .features__rate-box{
+        padding: 40px 5px 35px 5px;
+    }
+}
+@media ( max-width: 745px){
+    .features__box{
+        padding: 10px 10px 10px 10px;
+    }
+    .features__rate-box{
+        padding: 45px 5px 30px 5px;
+    }   
+    .promo__right_card button{
+        left:25%;
+    }
+    
+}
+@media ( max-width: 720px){
+    body{
+        position: absolute;
+        display: flex;
+        flex-direction: column;      
+    }
+    header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header__logo{
+        height: 20px;
+    }
+    .about{
+        padding: 50px 20px 50px 20px;
+    }
+    .about__image{
+        width: 280px;      
+    }
+   
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__sun-images{
+        width: 75px;
+        height: 75px;
+        left: 5%;
+        top: 30%;
+    }
+    .footer__container{
+        flex-direction: column;
+    }
+    .features{
+        padding: 50px 10px;
+    }
+    .cards{
+        grid-template-columns: auto;
+    }
+    .features__feedback{
+        display: flex;
+        flex-direction: column;
+    }
+    .features__feedback-left{
+        margin-right: 0px;
+    }
+    .features__feedback-left h2{
+        font-size: 36px;
+    }
+    .features__box{
+        padding: 10px 15px 8px 15px;
+        color: #fff;
+        border: 0px;
+        border-radius: 15px;
+    }
+    .features__feedback-right{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .features__box h3{
+        padding-bottom: 20px;
+        font-size: 36px;
+    }
+    .features__savings-box{
+        margin-right: 0px;
+    }
+    .features__box{
+        margin-bottom: 30px;
+    }
+    .promo__left{
+        width: 100%;
+        height: 500px;
+        flex-shrink: 0;
+    }
+    .promo__right{
+        width: 100%;
+        height: 500px;
+        padding: 50px 10px;
+    }
+    .promo {
+        flex-direction: column-reverse;
+    }
+    .promo__right_card button{
+        position: relative;
+        top: 0px;
+        left: 38%;
+    }
+    .promo__right_card{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 540px){
+    body{
+        position: absolute;
+        display: flex;
+        flex-direction: column;      
+    }
+    header{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header__logo{
+        height: 20px;
+    }
+    .about{
+        flex-direction: column-reverse;
+        padding: 50px 10px 50px 10px;
+    }
+    .about__image{
+        width: 280px;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__sun-images{
+        width: 75px;
+        height: 75px;
+        left: 10%;
+        top: 10%;
+    }
+    .form{
+        padding: 50px 10px 50px 10px;
+    }
+    .features__feedback-right{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .promo {
+        flex-direction: row-reverse;
+    }
+    .promo__left{
+        width: 100%;
+        height: 500px;
+    }
+    .promo__right{
+        height: 500px;
+        padding: 50px 10px;
+
+    }
+    .promo {
+        flex-direction: column-reverse;
+    }
+}
+
